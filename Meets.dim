@@ -1,0 +1,382 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6dae4bb1-5d19-42d5-b489-926091c9514c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Meets</ID>
+  <Name>Meets</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2703" scrolltop="-1202" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8446" y="10859" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Meets" left="20" top="4707" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Meets" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date" left="20" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="1808" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Meets_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="2307" />
+              <point x="1520" y="4707" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2703</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1202</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="127">
+            <Shape Id="Meet ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Meet ID" />
+                <Attribute Id="Date ID" />
+                <Attribute Id="Federation" />
+                <Attribute Id="Meet Name" />
+                <Attribute Id="Meet Path" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Meet Town" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meet Town" />
+              </Attributes>
+              <Position x="183" y="20" />
+            </Shape>
+            <Shape Id="Meet State" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meet State" />
+              </Attributes>
+              <Position x="347" y="20" />
+            </Shape>
+            <Shape Id="Meet Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meet Country" />
+              </Attributes>
+              <Position x="511" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5e4c6b94-3bd9-4522-9c4f-06ee6821dd13">
+    <DataSourceViewID>Kuanyshdb1</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="81d4cec1-1af2-4334-a02b-f6804aab5e38">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="42fc1908-2645-4204-b1e6-f57dbb669083">
+      <ID>Meet ID</ID>
+      <Name>Meet ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="010cc1a5-61d2-4ffc-87f2-3e42d488d39c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9715bc76-446e-4649-8df7-bc150528f012">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="741f9c6e-9f41-4af6-b51b-3b17cc961c52">
+          <AttributeID>Date ID</AttributeID>
+          <Name>Date ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="60161bac-3f6a-4c0a-894c-1dce5b7c18ad">
+          <AttributeID>Meet Path</AttributeID>
+          <Name>Meet Path</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d1a2ebd6-60ec-4809-831d-2bec54018066">
+          <AttributeID>Meet Name</AttributeID>
+          <Name>Meet Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e43643f6-7209-4131-b60a-04f0585a442a">
+          <AttributeID>Federation</AttributeID>
+          <Name>Federation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5713b569-4d55-470c-aa34-e9b639f51321">
+          <AttributeID>Meet Town</AttributeID>
+          <Name>Meet Town</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8933efb5-f345-49f8-8013-6b8a7128824b">
+      <ID>Date ID</ID>
+      <Name>Date ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9cbe6dd4-80e3-49c8-8173-f551edfa4c4d">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41037dc1-4241-44a5-9fca-9e68a46958c1">
+            <TableID>dbo_Date</TableID>
+            <ColumnID>DateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8f0b50b-906d-4bd5-8336-bef130af624b">
+      <ID>Meet Path</ID>
+      <Name>Meet Path</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79727e53-82a0-4d45-b40c-dba742ad8c87">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e251b086-4535-41e8-b02b-a2370b4d3f98">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetPath</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4ec33b6b-af78-444d-84df-c407a99c846d">
+      <ID>Meet Name</ID>
+      <Name>Meet Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9c28446-7186-4a49-83bc-b72b00cc3464">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="476d8010-e4d1-4860-bd24-2bff07839d38">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b7fac1f7-4df4-4b0f-93df-b6c370ac51e4">
+      <ID>Federation</ID>
+      <Name>Federation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a69fc6fd-22f1-4a66-adc5-266ef8524886">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80f24340-9663-4336-8b7d-dc9a7e0c78c5">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>Federation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d72b2365-41d1-4ff7-908a-89359442cdad">
+      <ID>Meet Town</ID>
+      <Name>Meet Town</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="650823ee-9be2-46f3-a516-231b2a2f7c08">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc46e4cd-c3da-4301-93ca-7e143ee45573">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetTown</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="452bca4f-7b4d-4f89-bb43-71bf1ce74782">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45008495-7fc3-450f-aa15-5cdbe98e90c0">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetState</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="a2e08dba-beef-49c6-9145-808c41f79d91">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6961f615-508d-42c2-a751-a9bf8cf27e6c">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3cbddcaf-042b-476e-846d-b3b6660dddf4">
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="88c3afd2-3e23-4e8f-b1af-0954b18c2e5a">
+          <TableID>dbo_Meets</TableID>
+          <ColumnID>MeetTown</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="15c8d1fc-1f06-40ed-a304-a64c7cc1fa62">
+          <AttributeID>Meet State</AttributeID>
+          <Name>Meet State</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c502d77-b7ed-4641-9569-476a26caad1a">
+      <ID>Meet State</ID>
+      <Name>Meet State</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9ac188d8-0b0c-4e32-b4e8-dc2c8b355b40">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2873bc7-daa5-43ae-be92-577136172d08">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetState</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1e674360-81b9-47d6-ab30-3de8e8ba8d3b">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dff92ef2-8565-4378-8221-6d32cdbe5ab0">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b2069bcb-9f3d-4dce-a3cd-02cc4664471a">
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e144e126-2064-428a-a2c3-06421ce2b791">
+          <TableID>dbo_Meets</TableID>
+          <ColumnID>MeetState</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8614b536-561e-442d-84cd-e1ca5708c766">
+          <AttributeID>Meet Country</AttributeID>
+          <Name>Meet Country</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6c62ba58-679b-4c3d-804b-d33b807f1a20">
+      <ID>Meet Country</ID>
+      <Name>Meet Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0509a8c4-d783-4cee-88af-612b658a138b">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed84edf7-4e9c-4496-83e1-4393aef80a5d">
+            <TableID>dbo_Meets</TableID>
+            <ColumnID>MeetCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e8041cc1-5e5c-4c24-a85d-283090d996d1">
+      <ID>Иерархия</ID>
+      <Name>Country</Name>
+      <Levels>
+        <Level dwd:design-time-name="a5e374a3-cbe1-4dcb-b01f-afbc04a02073">
+          <ID>Meet Country</ID>
+          <Name>Meet Country</Name>
+          <SourceAttributeID>Meet Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6067e261-d1f9-4f5b-9e2b-306c480ffb22">
+          <ID>Meet State</ID>
+          <Name>Meet State</Name>
+          <SourceAttributeID>Meet State</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e52fb2e7-4717-4fb1-ac09-c0828ba5f799">
+          <ID>Meet Town</ID>
+          <Name>Meet Town</Name>
+          <SourceAttributeID>Meet Town</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="220362a4-0e07-4198-b10d-e25d40c7e6b0">
+          <ID>Meet ID</ID>
+          <Name>Meet ID</Name>
+          <SourceAttributeID>Meet ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
